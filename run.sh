@@ -1,1 +1,1 @@
-docker run --runtime=nvidia -i -t --rm -v /home:/home tensorflow-gpu-1.12 $@
+docker run --runtime=nvidia -it -v /home:/home tensorflow/tensorflow:1.12.0-gpu-py3 /bin/bash
